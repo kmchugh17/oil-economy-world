@@ -1,0 +1,522 @@
+{
+  "asof": "2026-10-01",
+  "companies": [
+    {
+      "id": "xom",
+      "name": "ExxonMobil",
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "role": "Integrated producer",
+      "url": "https://corporate.exxonmobil.com/locations/guyana",
+      "near": "Guyana ramp-up and uptime",
+      "long": "Long-life offshore production growth",
+      "risk": "Oil prices, reservoir performance and fiscal terms"
+    },
+    {
+      "id": "cvx",
+      "name": "Chevron",
+      "ticker": "CVX",
+      "exchange": "NYSE",
+      "role": "Integrated producer",
+      "url": "https://www.chevron.com/newsroom/2025/q3/chevron-completes-acquisition-of-hess-corporation",
+      "near": "Integration of acquired Hess exposure",
+      "long": "Guyana plus US deepwater ownership",
+      "risk": "Execution, acquisition economics and commodity prices"
+    },
+    {
+      "id": "cnooc",
+      "name": "CNOOC",
+      "ticker": "00883 / 600938",
+      "exchange": "HKEX / SSE",
+      "role": "Producer",
+      "url": "https://www.cnoocltd.com/",
+      "near": "Stabroek production delivery",
+      "long": "Non-operated exposure to offshore resource growth",
+      "risk": "Minority control, jurisdiction and market-access constraints"
+    },
+    {
+      "id": "pbr",
+      "name": "Petrobras",
+      "ticker": "PETR3 / PBR",
+      "exchange": "B3 / NYSE (ADR)",
+      "role": "Integrated producer",
+      "url": "https://www.investidorpetrobras.com.br/en/overview/shareholding-structure/",
+      "near": "Búzios vessel ramp-up",
+      "long": "Pre-salt scale and infrastructure reuse",
+      "risk": "Capital allocation, policy, FX and offshore execution"
+    },
+    {
+      "id": "eqnr",
+      "name": "Equinor",
+      "ticker": "EQNR",
+      "exchange": "Oslo Børs / NYSE (ADS)",
+      "role": "Integrated producer",
+      "url": "https://www.equinor.com/investors/the-equinor-share",
+      "near": "Sverdrup infill and development progress",
+      "long": "Recovery improvements from installed infrastructure",
+      "risk": "Mature-field decline, tax and project costs"
+    },
+    {
+      "id": "akrbp",
+      "name": "Aker BP",
+      "ticker": "AKRBP",
+      "exchange": "Oslo Børs",
+      "role": "Producer",
+      "url": "https://akerbp.com/en/investor/share/",
+      "near": "Sverdrup operational delivery",
+      "long": "Material non-operated field ownership",
+      "risk": "Norway concentration and development spending"
+    },
+    {
+      "id": "tte",
+      "name": "TotalEnergies",
+      "ticker": "TTE",
+      "exchange": "Euronext Paris / NYSE",
+      "role": "Integrated producer",
+      "url": "https://totalenergies.com/investors/why-invest-in-totalenergies/becoming-shareholder",
+      "near": "Uptime across offshore portfolio",
+      "long": "Diversified oil and gas ownership",
+      "risk": "Fiscal, technical and country risks differ by asset"
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "ticker": "SHEL",
+      "exchange": "LSE / NYSE (ADS)",
+      "role": "Integrated producer",
+      "url": "https://www.shell.com/investors/information-for-shareholders/share-prices.html",
+      "near": "Whale production delivery",
+      "long": "Replicable deepwater development designs",
+      "risk": "Commodity mix, capital costs and reservoir uncertainty"
+    },
+    {
+      "id": "wds",
+      "name": "Woodside Energy",
+      "ticker": "WDS",
+      "exchange": "ASX / NYSE (ADS)",
+      "role": "Producer",
+      "url": "https://www.woodside.com/docs/default-source/investor-documents/quarterly-and-half-yearly-pdfs-and-data-tables/2026/030-first-quarter-2026-report.pdf",
+      "near": "Scarborough first LNG cargo target in Q4 2026",
+      "long": "Offshore oil and LNG development portfolio",
+      "risk": "Commissioning, cost, debt and LNG market exposure"
+    },
+    {
+      "id": "sbm",
+      "name": "SBM Offshore",
+      "ticker": "SBMO",
+      "exchange": "Euronext Amsterdam",
+      "role": "FPSO contractor",
+      "url": "https://live.euronext.com/en/product/equities/NL0000360618-XAMS",
+      "near": "Operating performance after ONE GUYANA sale",
+      "long": "Long-duration vessel operations and project execution",
+      "risk": "Contract terms and uptime matter more directly than oil ownership"
+    },
+    {
+      "id": "modec",
+      "name": "MODEC",
+      "ticker": "6269",
+      "exchange": "Tokyo Stock Exchange",
+      "role": "FPSO contractor",
+      "url": "https://www.modec.com/jp/ir/stock/overview.html",
+      "near": "Errea Wittu delivery and commissioning",
+      "long": "FPSO engineering and operations demand",
+      "risk": "Fixed-price execution, schedule and warranty exposure"
+    },
+    {
+      "id": "fti",
+      "name": "TechnipFMC",
+      "ticker": "FTI",
+      "exchange": "NYSE",
+      "role": "Subsea contractor",
+      "url": "https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-receives-notice-to-proceed-and-adds-additional-contract-for-the-yellowtail-development/",
+      "near": "Delivery milestones and new subsea awards",
+      "long": "More subsea wells and complex tiebacks",
+      "risk": "Historic awards are not remaining backlog; margins and conversion need checking"
+    },
+    {
+      "id": "slb",
+      "name": "SLB",
+      "ticker": "SLB",
+      "exchange": "NYSE",
+      "role": "Services / subsea",
+      "url": "https://investorcenter.slb.com/investor-resources/investor-faqs",
+      "near": "Subsea delivery and service activity",
+      "long": "Technical intensity of deepwater developments",
+      "risk": "Operator spending cycles, contract mix and execution"
+    }
+  ],
+  "assets": [
+    {
+      "id": "guyana",
+      "name": "Stabroek · Yellowtail",
+      "region": "Guyana",
+      "point": [
+        -56.96,
+        8.09
+      ],
+      "status": "Operating",
+      "value": 250,
+      "unit": "k bbl/day",
+      "basis": "Initial design capacity · not actual output",
+      "depth": "Deepwater; regional marker",
+      "system": "FPSO + subsea wells",
+      "owners": {
+        "xom": 45,
+        "cvx": 30,
+        "cnooc": 25
+      },
+      "contractors": {
+        "sbm": "ONE GUYANA O&M through 2035; vessel sold in February 2026",
+        "fti": "2022 award: subsea trees, manifolds and risers"
+      },
+      "fact": "Chevron acquired Hess in July 2025. Hess is no longer a separate listed research candidate.",
+      "near": "Watch sustained output, uptime and completion of nearby developments.",
+      "long": "New developments can reuse a growing regional operating ecosystem.",
+      "risk": "Capacity is not production. Working interest does not equal production-sharing entitlement.",
+      "sources": [
+        {
+          "label": "Exxon · Yellowtail capacity / Stabroek ownership",
+          "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+          "date": "2025-11-12"
+        },
+        {
+          "label": "Chevron · Hess acquisition",
+          "url": "https://www.chevron.com/newsroom/2025/q3/chevron-completes-acquisition-of-hess-corporation",
+          "date": "2025-07-18"
+        },
+        {
+          "label": "SBM · vessel sale and O&M",
+          "url": "https://www.sbmoffshore.com/newsroom/fpso-one-guyana-purchase-by-exxonmobil-guyana-completed/",
+          "date": "2026-02-04"
+        },
+        {
+          "label": "TechnipFMC · historic equipment award",
+          "url": "https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-receives-notice-to-proceed-and-adds-additional-contract-for-the-yellowtail-development/",
+          "date": "2022-05-02"
+        },
+        {
+          "label": "MARAD · Liza regional location reference",
+          "url": "https://marad.gov.gy/wp-content/uploads/2021/06/No.-74_2021_EEPGL_Liza_Field_Operation.pdf",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "id": "uaru",
+      "name": "Uaru · Errea Wittu",
+      "region": "Guyana",
+      "point": [
+        -56.6,
+        8.4
+      ],
+      "status": "Development",
+      "value": 250,
+      "unit": "k bbl/day",
+      "basis": "Design capacity · project page targets 2026",
+      "depth": "1,690 m",
+      "system": "FPSO + subsea wells",
+      "owners": {
+        "xom": 45,
+        "cvx": 30,
+        "cnooc": 25
+      },
+      "contractors": {
+        "modec": "EPCI plus 10-year O&M scope",
+        "fti": "2023 award: 44 trees and 12 manifolds"
+      },
+      "fact": "Project page lists construction and a 2026 delivery target; startup has not been confirmed here. Map point is a regional, offset display anchor.",
+      "near": "Verify first oil rather than treating the target date as achieved.",
+      "long": "Repeat development of the Stabroek resource base.",
+      "risk": "Commissioning, well delivery and subsea installation can constrain ramp-up.",
+      "sources": [
+        {
+          "label": "MODEC · Uaru project",
+          "url": "https://www.modec.com/project/detail/uaru.html",
+          "date": "checked 2026-10-01"
+        },
+        {
+          "label": "TechnipFMC · Uaru award",
+          "url": "https://www.technipfmc.com/media/obbd0faz/press-release_technipfmc_uaru_award.pdf",
+          "date": "2023-05-02"
+        }
+      ]
+    },
+    {
+      "id": "buzios",
+      "name": "Búzios",
+      "region": "Brazil",
+      "point": [
+        -42.498,
+        -24.657
+      ],
+      "status": "Operating",
+      "value": 1100,
+      "unit": "k bbl/day",
+      "basis": "Reported daily record · 23 June 2026",
+      "depth": "~1,900 m",
+      "system": "Multiple FPSOs",
+      "owners": {
+        "pbr": null
+      },
+      "contractors": {},
+      "fact": "A dated field production milestone, not an estimate of today’s sustained rate. Ownership percentages are not loaded.",
+      "near": "Watch new vessel ramp-up and sustained production after record days.",
+      "long": "Scale, repeat facilities and pre-salt development depth.",
+      "risk": "Reservoir, gas handling, equipment availability and capital discipline.",
+      "sources": [
+        {
+          "label": "Petrobras · June production record",
+          "url": "https://agencia.petrobras.com.br/en/w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd",
+          "date": "2026-06-24"
+        },
+        {
+          "label": "PPSA · offshore portfolio / depth",
+          "url": "https://www.presalpetroleo.gov.br/wp-content/uploads/2025/05/Ebook-de-bolso-portfolio-PPSA-web-v3-alta.pdf",
+          "date": "2025"
+        },
+        {
+          "label": "GEM · field reference coordinates",
+          "url": "https://www.gem.wiki/Buzios_Oil_and_Gas_Field_%28Rio_de_Janeiro%2C_Brazil%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "sverdrup",
+      "name": "Johan Sverdrup",
+      "region": "Norway",
+      "point": [
+        2.59,
+        58.72
+      ],
+      "status": "Operating",
+      "value": 755,
+      "unit": "k bbl/day",
+      "basis": "Production capacity · July 2025 disclosure",
+      "depth": "110–120 m",
+      "system": "Fixed platforms + subsea tiebacks",
+      "owners": {
+        "eqnr": 42.6267,
+        "akrbp": 31.5733,
+        "tte": 8.44
+      },
+      "contractors": {},
+      "fact": "Unlisted Petoro owns another 17.36%. Phase 3 adds two subsea templates and eight wells.",
+      "near": "Track phase 3 progress and field production against expectations.",
+      "long": "Tiebacks and improved recovery extend use of installed infrastructure.",
+      "risk": "Infill drilling cannot eliminate natural reservoir decline.",
+      "sources": [
+        {
+          "label": "Equinor · phase 3 and ownership",
+          "url": "https://www.equinor.com/news/20250701-developing-johan-sverdrup",
+          "date": "2025-07-01"
+        },
+        {
+          "label": "Norwegian Offshore Directorate · regional facility reference",
+          "url": "https://factpages.sodir.no/en/facility/PageView/Fixed/OrderedBy/DateUpdatedMax/788432",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "anchor",
+      "name": "Anchor",
+      "region": "US Gulf",
+      "point": [
+        -91.1338,
+        27.1446
+      ],
+      "status": "Operating",
+      "value": 75,
+      "unit": "k bbl/day",
+      "basis": "Gross oil design capacity",
+      "depth": "~1,500 m",
+      "system": "Semi-submersible FPU",
+      "owners": {
+        "cvx": 62.86,
+        "tte": 37.14
+      },
+      "contractors": {
+        "slb": "OneSubsea high-pressure equipment award (2019)"
+      },
+      "fact": "20,000 psi wellhead technology. The 34,000-foot reservoir depth is not water depth.",
+      "near": "Watch well performance and uptime in high-pressure service.",
+      "long": "High-pressure equipment can unlock more difficult reservoirs.",
+      "risk": "Technical complexity and intervention costs can overwhelm attractive resource size.",
+      "sources": [
+        {
+          "label": "Chevron · Anchor factsheet",
+          "url": "https://www.chevron.com/-/media/chevron/what-we-do/documents/anchor-factsheet-download.pdf",
+          "date": "2024"
+        },
+        {
+          "label": "SLB · equipment award",
+          "url": "https://www.slb.com/newsroom/press-release/2019/pr-2019-1212-oss-chevron-anchor",
+          "date": "2019-12-12"
+        },
+        {
+          "label": "GEM · asset reference coordinates",
+          "url": "https://www.gem.wiki/Anchor_%28GC807%29_-_Chevron_Oil_and_Gas_Asset_%28Federal_offshore%2C_United_States%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "whale",
+      "name": "Whale",
+      "region": "US Gulf",
+      "point": [
+        -94.2048,
+        26.2944
+      ],
+      "status": "Operating",
+      "value": 100,
+      "unit": "k boe/day",
+      "basis": "Estimated peak · oil + gas equivalent",
+      "depth": "~2,600 m",
+      "system": "Semi-submersible platform",
+      "owners": {
+        "shell": 60,
+        "cvx": 40
+      },
+      "contractors": {},
+      "fact": "Production began in January 2025. Oil-equivalent volume includes gas and is not comparable to crude barrels.",
+      "near": "Watch ramp-up, availability and delivered commodity mix.",
+      "long": "Replicating platform designs can reduce development complexity.",
+      "risk": "A peak estimate is not a guaranteed sustained production rate.",
+      "sources": [
+        {
+          "label": "Shell · first production",
+          "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2025/shell-starts-production-at-whale-in-the-us-gulf-of-mexico.html",
+          "date": "2025-01-09"
+        },
+        {
+          "label": "Shell · development depth",
+          "url": "https://www.shell.com/news-and-insights/our-stories/whale-setting-new-standards-for-deep-water.html",
+          "date": "checked 2026-10-01"
+        },
+        {
+          "label": "GEM · asset reference coordinates",
+          "url": "https://www.gem.wiki/Whale_%28AC772%29_-_Shell_Oil_and_Gas_Asset_%28Federal_offshore%2C_United_States%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "egina",
+      "name": "Egina",
+      "region": "Nigeria",
+      "point": [
+        6.68,
+        3.26
+      ],
+      "status": "Operating",
+      "value": 200,
+      "unit": "k bbl/day",
+      "basis": "Production capacity",
+      "depth": "1,400–1,700 m",
+      "system": "FPSO + 44 subsea wells",
+      "owners": {
+        "tte": null,
+        "cnooc": null
+      },
+      "contractors": {},
+      "fact": "FPSO storage capacity is 2.3 million barrels. Listed relationships shown are a subset of project partners.",
+      "near": "Monitor field uptime and export reliability.",
+      "long": "Large installed subsea and processing system supports long-life production.",
+      "risk": "Security, fiscal terms, maintenance and water handling affect realized economics.",
+      "sources": [
+        {
+          "label": "TotalEnergies · Egina project",
+          "url": "https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria",
+          "date": "checked 2026-10-01"
+        },
+        {
+          "label": "GEM · approximate location",
+          "url": "https://www.gem.wiki/Egina_Oil_Field_%28Nigeria%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "sangomar",
+      "name": "Sangomar",
+      "region": "Senegal",
+      "point": [
+        -17.6065,
+        13.7353
+      ],
+      "status": "Operating",
+      "value": 100,
+      "unit": "k bbl/day",
+      "basis": "FPSO nameplate capacity",
+      "depth": "~800 m",
+      "system": "FPSO + water / gas injection",
+      "owners": {
+        "wds": 82
+      },
+      "contractors": {},
+      "fact": "PETROSEN owns 18% of the exploitation area. Do not substitute ownership of the wider exploration area.",
+      "near": "Watch sustained production, lifting timing and operating costs.",
+      "long": "A new producing basin with infrastructure already installed.",
+      "risk": "Reservoir support, uptime and fiscal obligations shape cash conversion.",
+      "sources": [
+        {
+          "label": "Woodside · operating interests",
+          "url": "https://www.woodside.com/what-we-do/operations/sangomar",
+          "date": "checked 2026-10-01"
+        },
+        {
+          "label": "Woodside · first oil technical briefing",
+          "url": "https://www.woodside.com/docs/default-source/asx-announcements/2024/sangomar-first-oil-teleconference-transcript.pdf?sfvrsn=fa0c3e66_1",
+          "date": "2024"
+        },
+        {
+          "label": "GEM · location",
+          "url": "https://www.gem.wiki/Sangomar_Oil_and_Gas_Field_%28Senegal%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "scarborough",
+      "name": "Scarborough → Pluto",
+      "region": "Australia",
+      "point": [
+        113.147,
+        -19.8839
+      ],
+      "status": "Commissioning",
+      "value": 8,
+      "unit": "Mtpa LNG",
+      "basis": "Project LNG capacity · not crude oil",
+      "depth": "Offshore gas → onshore LNG",
+      "system": "FPU + 430 km pipeline + LNG plant",
+      "owners": {
+        "wds": 74.9
+      },
+      "contractors": {},
+      "fact": "First gas was reported in July 2026; first LNG cargo targeted Q4 2026. Woodside’s reservoir interest differs from its Pluto Train 2 interest (51%).",
+      "near": "Confirm first cargo and reliable LNG train operation.",
+      "long": "Reservoir, pipeline and liquefaction form an integrated export chain.",
+      "risk": "A bottleneck at any stage can restrict output; do not apply reservoir interest to total LNG capacity.",
+      "sources": [
+        {
+          "label": "Woodside · August progress",
+          "url": "https://www.woodside.com/media-centre/news-stories/story/scarborough-strides-ahead",
+          "date": "2026-08-06"
+        },
+        {
+          "label": "Woodside · interests in Q1 report",
+          "url": "https://www.woodside.com/docs/default-source/investor-documents/quarterly-and-half-yearly-pdfs-and-data-tables/2026/030-first-quarter-2026-report.pdf",
+          "date": "2026-04-29"
+        },
+        {
+          "label": "GEM · field reference coordinates",
+          "url": "https://www.gem.wiki/Scarborough_Gas_Field_%28Western_Australia%2C_Australia%29",
+          "date": "checked 2026-10-01"
+        }
+      ]
+    }
+  ]
+}

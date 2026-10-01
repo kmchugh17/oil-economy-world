@@ -1,29 +1,32 @@
-# Global Oil Atlas
+# Oil Atlas — operating research workspace
 
-Interactive world map of oil supply, refining, demand, inventories and maritime flows.
+A static global oil research website connecting offshore developments to listed-company ownership, operators and contractors. Open `index.html` through a local HTTP server or static host.
 
-## Run
+## Features
 
-Open `index.html` in a modern browser, or serve this directory with any static web server. No build step, backend, API key or package installation is required. D3 and TopoJSON load from public CDNs, so an internet connection is needed.
+- Interactive world map, zoom, layer switching and asset inspection.
+- Nine curated offshore developments and thirteen listed companies, with exchange and ticker labels.
+- Separate ownership and contractor relationships, project-specific units and dated evidence.
+- Near-term catalysts, long-term exposure and thesis risks, explicitly framed as research hypotheses.
+- Offshore system explorer: reservoir, wells, subsea, facility, exports and economics.
+- Browser-local three-company shortlist, comparison, diligence notes and JSON export.
+- Twenty-one dated market signals, eight chokepoints with six quarterly comparisons, and oil-on-water observations.
+- Original detailed national balance and historical research application preserved at `ledger.html`.
 
-## Explore
+## Files and operation
 
-- Dated implications: supply offsets, closures, constraints and shadow-shipping evidence.
-- Oil on water: in-transit and floating-storage estimates, onshore comparisons and voyage-delay scenarios.
-- Eight chokepoints: six quarterly comparisons, including crude and product breakdowns.
-- National balances: 113 reporting economies, 13 product categories and historical comparisons.
-- Historical ranges: compare eligible observations with prior years.
+`index.html`, `app.css`, `app.js`, `research.json`, `context.json`, `world.json`, `ledger.html` and `.nojekyll` deploy directly at the site root. No build step, API key or backend is required. D3, topojson-client and web fonts load from public CDNs; map and research data are local static files. Serve over HTTP(S), not a `file://` URL, because the application fetches JSON.
 
-## Data and limitations
+For GitHub Pages, use Settings → Pages → Deploy from a branch → main → / (root). Other static hosts can serve the same files.
 
-Evidence snapshot: 30 September 2026. National monthly data extend through July 2026; annual comparisons cover 2015–2025. Individual maritime observations have their own dates. Sources, definitions and calculation rules are linked inside the atlas.
+## Data limitations
 
-This is not a live vessel-tracking feed, a complete global mass balance, or an automatically refreshed dataset. Missing observations are not treated as zero. Measurements, derived values, scenarios and interpretations are distinguished in the interface.
+Research assembled 1 October 2026. This is a sourced snapshot, not an automatically updated news, AIS, pricing, company-filing or fundamental-data service. Coverage is curated, not an exhaustive asset register. Facts have individual observation dates and source links.
 
-## Hosting
+Capacity, actual production, estimated peak output, oil-equivalent gas and LNG tonnage are not interchangeable and must not be summed. Working interest is not net production-sharing entitlement. Contractor awards do not establish remaining backlog. Offshore coordinates are field or regional references, not platform or vessel tracking. Geography uses Natural Earth via world-atlas.
 
-Publish this directory with a static hosting service. The entry point is `index.html`; no build command is required. Uploading this repository alone does not enable website hosting.
+No stock ranking, valuation model, market prices or buy recommendation is supplied. Research hypotheses need current financial and valuation work. Saved notes live only in the browser unless exported.
 
-## Structure
+## Validation
 
-`index.html` contains the standalone atlas, embedded compressed datasets and its interface. `.nojekyll` allows plain static serving on GitHub Pages. The file retains its sandboxed visualization frame.
+Desktop and mobile browser checks cover asset/company selection, ticker search, shortlist persistence, comparison notes, quarterly changes, layer switching, offshore stages, ledger access and mobile overflow. Static JavaScript syntax was checked with Node.
